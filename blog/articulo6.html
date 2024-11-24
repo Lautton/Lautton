@@ -5,9 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestras Recomendaciones para Abrigar las Piernas - Lautton</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preload" href="fondo-articulo1.jpg" as="image">
+        <style>
+        body {
+            background: #eaeaea url('fondo-articulo1.jpg') no-repeat center center/cover;/* #ffeeddff: Color de fondo antes de que cargue la imagen */
+            background-attachment: fixed; /* Opcional: Hace que el fondo no se desplace */
+        }
+        .logo img {
+            height: 80px;
+            width: auto;
+        }
+        header {
+            background: url('header-bg.jpg') no-repeat center center/cover;/* #ffeeddff: Color de fondo antes de que cargue la imagen */
+            height: 150px; /* Ajusta según el diseño */
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Espacio entre logo y menú */
+            padding: 0 20px;
+        }
+        footer {
+            background: url('footer-bg.jpg') no-repeat center center/cover;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
     <header>
+        <div class="logo">
+            <img src="logo-empresa.png" alt="Logo de la Empresa">
+        </div>
         <h1>Nuestras Recomendaciones para Abrigar las Piernas</h1>
     </header>
     <main>
@@ -65,5 +96,8 @@
             <a href="../blog.html">Regresar al Blog</a>
         </nav>
     </main>
+    <footer>
+        <p>&copy; 2024 - Lautton - </p>
+    </footer>
 </body>
 </html>
