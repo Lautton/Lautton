@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;   /* f4f4f4 */
+    background-color: #eee0d7;   /* f4f4f4  branco gris*/
     margin: 0;
     padding: 0;
 }
@@ -22,7 +22,7 @@ nav a {
     text-decoration: none;
 }
 main {
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
     padding: 1em;
     background-color: #fff;
