@@ -26,7 +26,6 @@ header {
       max-width: 200px; /* Tamaño estándar del logo */
       transition: all 0.3s ease-in-out;
     }
-
     .logo-link img {
       display: block;
     }
@@ -82,12 +81,23 @@ main {
     body {
         font-size: 18px;
     }
-    header {
+   /* header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
     height: 150px;
-    }
+    }*/
+  	  header {
+	    flex-direction: row; /* Logotipo a la izquierda */
+	    justify-content: space-between;
+	    align-items: center;
+	    height: 100px;
+	    padding: 0 20px;
+  	}
+  	.logo {
+	  max-height: 100%; /* Ocupa toda la altura del header */
+	  max-width: 150px; /* Tamaño fijo */
+	  }
 }
 
