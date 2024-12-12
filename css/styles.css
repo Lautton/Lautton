@@ -1,3 +1,7 @@
+  @font-face {
+    font-family: 'PlayfairDisplay-SemiBold';
+    src: url('./PlayfairDisplay-SemiBold.ttf') format('truetype');
+  }
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,6 +11,7 @@ body {
     padding: 0;
 }
 header, footer {
+    font-family: 'PlayfairDisplay-SemiBold', serif;
     background-color: #b30016ff;   /* 0c4120ff verde oscuro*/
     color: #fff;
     padding: 1em;
