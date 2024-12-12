@@ -1,7 +1,7 @@
-  @font-face {
+@font-face {
     font-family: 'PlayfairDisplay-SemiBold';
     src: url('./fonts/PlayfairDisplay-SemiBold.ttf') format('truetype');
-  }
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -22,13 +22,13 @@ header {
       padding: 10px;
       gap: 10px;
 }
-    .logo {
-      max-width: 200px; /* Tamaño estándar del logo */
-      transition: all 0.3s ease-in-out;
-    }
-    .logo-link img {
-      display: block;
-    }
+.logo {
+max-width: 200px; /* Tamaño estándar del logo */
+transition: all 0.3s ease-in-out;
+}
+.logo-link img {
+display: block;
+}
 footer {
     font-family: 'PlayfairDisplay-SemiBold', serif;
     background-color: #b30016ff;   /* 0c4120ff verde oscuro*/
@@ -78,10 +78,6 @@ main {
       .logo {
         max-width: 250px; /* Tamaño más grande del logo */
       }
- /*   .h1 {
-      font-size: 1.5rem;
-      margin: 0;
-    }*/
 }
 /* Estilos para pantallas grandes (escritorios) */
 @media (min-width: 1024px) {
@@ -95,14 +91,14 @@ main {
     padding: 0 20px;
     height: 150px;
     }*/
-  	  header {
+	  header {
 	    flex-direction: row; /* Logotipo a la izquierda */
 	    justify-content: space-between;
 	    align-items: center;
 	    height: 100px;
 	    padding: 0 20px;
-  	}
-  	.logo {
+	}
+	.logo {
 	  max-height: 100%; /* Ocupa toda la altura del header */
 	  max-width: 150px; /* Tamaño fijo */
 	  }
