@@ -51,6 +51,18 @@ main {
     padding: 1em;
     background-color: #fff;
 }
+/* Estilos para pantallas medianas (tablets) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
 /* Estilos para pantallas pequeñas (teléfonos) */
 @media (max-width: 480px) {
     body {
@@ -66,18 +78,6 @@ main {
       .logo {
         max-width: 250px; /* Tamaño más grande del logo */
       }
-}
-/* Estilos para pantallas medianas (tablets) */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-    }
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
 }
 /* Estilos para pantallas grandes (escritorios) */
 @media (min-width: 1024px) {
