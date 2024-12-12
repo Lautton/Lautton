@@ -78,6 +78,10 @@ main {
       .logo {
         max-width: 250px; /* Tamaño más grande del logo */
       }
+    .h1 {
+      font-size: 1.5rem;
+      margin: 0;
+    }
 }
 /* Estilos para pantallas grandes (escritorios) */
 @media (min-width: 1024px) {
