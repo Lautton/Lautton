@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cómo Mantener los Pies Calientes: La Clave Está en las Piernas - Lautton</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <style>
+    .content-block {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .content-block img {
+        width: 150px; /* Ajusta el tamaño de las imágenes */
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .content-block p {
+        flex: 1;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    @media (max-width: 768px) {
+        .content-block {
+            flex-direction: column; /* Cambia de diseño horizontal a vertical */
+            align-items: flex-start; /* Alinea el contenido a la izquierda */
+        }
+
+        .content-block img {
+            width: 100%; /* Ajusta la imagen al ancho disponible */
+        }
+    }
+</style>
 </head>
 <body>
     <header>
@@ -17,7 +48,13 @@
     <main>
         <article>
           <h2>Cómo Mantener los Pies Calientes: La Clave Está en las Piernas</h2>
-          <p>¿Te ha pasado alguna vez que, por más que te abrigues, los pies siguen fríos? La clave puede estar en abrigar las piernas adecuadamente. Al proteger las piernas del frío, la sangre circula mejor y llega más caliente a los pies, ayudando a mantener su temperatura.</p>
+            <section>
+                <div class="content-block">
+                    <img src="../images/backgrounds/PIES_FRIOS_GR.jpg" alt="Imagen 1" class="responsive-image">
+                    <p>¿Te ha pasado alguna vez que, por más que te abrigues, los pies siguen fríos? La clave puede estar en abrigar las piernas adecuadamente. Al proteger las piernas del frío, la sangre circula mejor y llega más caliente a los pies, ayudando a mantener su temperatura.</p>
+                </div>
+            </section>
+          
           <p>En invierno, nuestras extremidades tienden a enfriarse primero, y una de las razones es que el cuerpo enfría la sangre que pasa por zonas expuestas al frío. Abrigar bien las piernas significa que la sangre que llega a los pies mantiene mejor su temperatura, y, por lo tanto, tus pies se sentirán más confortables.</p>
           <p>Una prenda que mantenga tus piernas protegidas y que puedas adaptar según la temperatura puede marcar una gran diferencia. En <a href="../blog/articulo6.html">Nuestras recomendaciones para abrigar las piernas</a>, te damos más opciones para lograr un confort completo.</p>
         </article>
