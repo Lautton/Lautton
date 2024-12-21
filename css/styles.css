@@ -50,7 +50,7 @@ nav a {
     text-decoration: none;
 }
 main {
-    max-width: 1000px;
+    max-width: 80%;
     margin: auto;
     padding: 1em;
     background-color: #fff;
