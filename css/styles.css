@@ -12,11 +12,12 @@ body {
 }
 header {
     font-family: 'PlayfairDisplay-MediumItalic', serif;
-    background-color: #b30016ff;   /* 0c4120ff verde oscuro*/
+    /*background-color: #b30016ff;    0c4120ff verde oscuro*/
+    background: linear-gradient(90deg, black, #aa0403, #cf0403, #aa0403, black);
     color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
       justify-content: center;
       position: relative;
       padding: 10px;
