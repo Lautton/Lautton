@@ -50,6 +50,9 @@ nav a {
     color: #fff;
     text-decoration: none;
 }
+nav a:hover {
+    text-decoration: underline;
+}
 main {
     max-width: 80%;
     margin: auto;
